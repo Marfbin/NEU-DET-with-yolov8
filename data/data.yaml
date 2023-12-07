@@ -1,0 +1,4 @@
+train: /root/autodl-tmp/ultralytics-main/data/NEU-DET/train
+val: /root/autodl-tmp/ultralytics-main/data/NEU-DET/test
+nc: 6 #标签数量
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']#标签名称

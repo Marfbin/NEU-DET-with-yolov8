@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@connect.westb.seetacloud.com:27109">
+    <serverData>
+      <paths name="root@connect.westb.seetacloud.com:27109">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/ultralytics-main" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.westb.seetacloud.com:39732">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/ultralytics-main" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.westb.seetacloud.com:40699">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/ultralytics-main" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
