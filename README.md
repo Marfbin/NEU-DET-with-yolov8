@@ -34,7 +34,7 @@ The data in the data folder has already been converted.
 
 Making the following changes:
 
-![image-20231207191154106](C:\Users\路还长别猖狂\AppData\Roaming\Typora\typora-user-images\image-20231207191154106.png)
+![image](https://github.com/canon-ma/NEU-DET-with-yolov8/assets/126367905/c458d748-20f8-48db-82a3-8c2fdb3d6a09)
 
 # 4. train_final.py
 
@@ -82,7 +82,7 @@ In the following path:	ultralytics/cfg/models/v8/	add
 
 In the following path:	ultralytics/nn/modules/conv.py  add the following codes:
 
-![image-20231207190232211](C:\Users\路还长别猖狂\AppData\Roaming\Typora\typora-user-images\image-20231207190232211.png)
+![image](https://github.com/canon-ma/NEU-DET-with-yolov8/assets/126367905/86636382-e989-472e-9d16-d38a41a4439a)
 
 ```python
 class WindowAttention(nn.Module):
@@ -362,21 +362,23 @@ class SwinTransformerBlock(nn.Module):
 
 Simultaneously make the following changes:
 
-![image-20231207190315079](C:\Users\路还长别猖狂\AppData\Roaming\Typora\typora-user-images\image-20231207190315079.png)
+![image](https://github.com/canon-ma/NEU-DET-with-yolov8/assets/126367905/1447630a-c90e-4692-87bf-7d93360c4600)
+
 
 # 3. __init__.py
 
 In the following path:	ultralytics/nn/modules/__init__.py  make the following changes:
 
-![image-20231207190538287](C:\Users\路还长别猖狂\AppData\Roaming\Typora\typora-user-images\image-20231207190538287.png)
+![image](https://github.com/canon-ma/NEU-DET-with-yolov8/assets/126367905/d24bbd57-3674-413d-a7a0-0295de13791d)
+
 
 # 4.tasks.py
 
 In the following path:	ultralytics/nn/task.py  make the following changes:
 
-![image-20231207190650970](C:\Users\路还长别猖狂\AppData\Roaming\Typora\typora-user-images\image-20231207190650970.png)
+![image](https://github.com/canon-ma/NEU-DET-with-yolov8/assets/126367905/7e9ffeec-7b91-4fc0-bb01-211bcc4b397f)
 
-![image-20231207190726316](C:\Users\路还长别猖狂\AppData\Roaming\Typora\typora-user-images\image-20231207190726316.png)
+![image](https://github.com/canon-ma/NEU-DET-with-yolov8/assets/126367905/306480ca-bf19-48b7-87f7-95fa3a35c9e4)
 
 # 5.train_final.py
 
@@ -400,8 +402,11 @@ if __name__ == '__main__':
 
 # 6.Results
 
-![confusion_matrix_normalized](G:\研究生\研一\研一上\机器视觉检测原理\yolov8\9：1+原始yolon\78.4%+swin_transformer\confusion_matrix_normalized.png)
+![image](https://github.com/canon-ma/NEU-DET-with-yolov8/assets/126367905/bca60cb2-26c8-4ab7-ab25-9b0f99208590)
+![image](https://github.com/canon-ma/NEU-DET-with-yolov8/assets/126367905/b5497503-f122-4e61-bb6a-d775672d4332)
+![image](https://github.com/canon-ma/NEU-DET-with-yolov8/assets/126367905/21cd43c3-74dc-4f48-81d1-8e31cc8789a0)
 
-![PR_curve](G:\研究生\研一\研一上\机器视觉检测原理\yolov8\9：1+原始yolon\78.4%+swin_transformer\PR_curve.png)
 
-![val_batch0_pred](G:\研究生\研一\研一上\机器视觉检测原理\yolov8\9：1+原始yolon\78.4%+swin_transformer\val_batch0_pred.jpg)
+
+
+
